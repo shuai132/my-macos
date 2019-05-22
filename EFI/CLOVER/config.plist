@@ -62,8 +62,10 @@
 		<string>nv_disable=1</string>
 		<key>Debug</key>
 		<false/>
+		<key>DefaultLoader</key>
+		<string>boot.efi</string>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
+		<string>macOS</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
@@ -113,8 +115,9 @@
 		<string>Dark</string>
 		<key>Hide</key>
 		<array>
-			<string>\EFI\BOOT\BOOTX64.EFI</string>
-			<string>Windows</string>
+			<string>Preboot</string>
+			<string>Recovery</string>
+			<string>VM</string>
 		</array>
 		<key>Language</key>
 		<string>zh_CN:0</string>
