@@ -10,6 +10,23 @@
 			<false/>
 			<key>DropOEM_DSM</key>
 			<false/>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>change HECI to IMEI</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SEVDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					SU1FSQ==
+					</data>
+				</dict>
+			</array>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
