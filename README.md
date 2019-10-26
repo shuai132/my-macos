@@ -3,4 +3,4 @@
 * 主板: 技嘉（GIGABYTE）B360 M AORUS PRO “小雕”
 
 ## Notice
-* 声卡驱动使用VoodooHDA，需删除SLE下的AppleHDA驱动。
+* 声卡驱动使用VoodooHDA，需删除kexts下的AppleHDA驱动。
