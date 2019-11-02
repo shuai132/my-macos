@@ -1,0 +1,147 @@
+43:533  3:998  Found BIOS RSDP at F05B0
+43:533  0:000  Printing ACPI tables from RSDP F05B0 ...
+43:533  0:000   F05B0: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+43:533  0:000    (Rsdt: 894F7028)
+43:533  0:000    894F7028: 'RSDT', 'A M I', Rev: 1, Len: 124
+43:533  0:000    Tables in Rsdt: 22
+43:533  0:000    0. 894F7190: 'FACP', 'A M I', Rev: 2, Len: 132
+43:533  0:000        (Dsdt: 894F7218, Facs: 895C1040)
+43:533  0:000        894F7218: 'DSDT', 'A M I', Rev: 2, Len: 255923
+43:535  0:002        895C1040: 'FACS', Ver: 0, Len: 64
+43:535  0:000    1. 89535AE8: 'APIC', 'A M I', Rev: 4, Len: 244
+43:535  0:000    2. 89535BE0: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:535  0:000    3. 89535C28: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:535  0:000    4. 89535CC8: 'MCFG', 'A M I', Rev: 1, Len: 60
+43:535  0:000    5. 89535D08: 'SSDT', 'A M I', Rev: 1, Len: 516
+43:535  0:000    6. 89535F10: 'SSDT', 'A M I', Rev: 2, Len: 6101
+43:535  0:000    7. 895376E8: 'SSDT', 'A M I', Rev: 1, Len: 32056
+43:535  0:000    8. 8953F420: 'SSDT', 'A M I', Rev: 2, Len: 12743
+43:535  0:000    9. 895425E8: 'HPET', 'A M I', Rev: 1, Len: 56
+43:535  0:000    10. 89542620: 'SSDT', 'A M I', Rev: 2, Len: 7137
+43:535  0:000    11. 89544208: 'SSDT', 'A M I', Rev: 2, Len: 3998
+43:535  0:000    12. 895451A8: 'SSDT', 'A M I', Rev: 2, Len: 11547
+43:535  0:000    13. 89547EC8: 'UEFI', 'A M I', Rev: 1, Len: 66
+43:535  0:000    14. 89547F10: 'LPIT', 'A M I', Rev: 1, Len: 92
+43:535  0:000    15. 89547F70: 'SSDT', 'A M I', Rev: 2, Len: 10206
+43:535  0:000    16. 8954A750: 'SSDT', 'A M I', Rev: 2, Len: 4094
+43:535  0:000    17. 8954B750: 'DBGP', 'A M I', Rev: 1, Len: 52
+43:535  0:000    18. 8954B788: 'DBG2', 'A M I', Rev: 0, Len: 84
+43:535  0:000    19. 8954B7E0: 'DMAR', 'A M I', Rev: 1, Len: 168
+43:535  0:000    20. 8954B888: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:535  0:000    21. 8954B8C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+43:535  0:000  Found UEFI Acpi 2.0 RSDP at 894F7000
+43:535  0:000  Saving ACPI tables from RSDP 894F7000 to EFI\CLOVER\ACPI\origin ...
+43:535  0:000   894F7000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+43:535  0:000    (Xsdt: 894F70A8, Rsdt: 894F7028)
+43:535  0:000    894F70A8: 'XSDT', 'A M I', Rev: 1, Len: 212
+43:535  0:000    894F7028: 'RSDT', 'A M I', Rev: 1, Len: 124
+43:535  0:000    Tables in Xsdt: 22
+43:535  0:000    0. 895359D0: 'FACP', 'A M I', Rev: 6, Len: 276
+43:535  0:000        (Dsdt: 894F7218, Facs: 895C1080, XDsdt: 894F7218, XFacs: 0)
+43:535  0:000        894F7218: 'DSDT', 'A M I', Rev: 2, Len: 255923
+43:538  0:002        895C1080: 'FACS', Ver: 2, Len: 64
+43:538  0:000    1. 89535AE8: 'APIC', 'A M I', Rev: 4, Len: 244
+43:538  0:000    2. 89535BE0: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:538  0:000    3. 89535C28: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:538  0:000    4. 89535CC8: 'MCFG', 'A M I', Rev: 1, Len: 60
+43:538  0:000    5. 89535D08: 'SSDT', 'A M I', Rev: 1, Len: 516
+43:538  0:000    6. 89535F10: 'SSDT', 'A M I', Rev: 2, Len: 6101
+43:538  0:000    7. 895376E8: 'SSDT', 'A M I', Rev: 1, Len: 32056
+43:538  0:000    8. 8953F420: 'SSDT', 'A M I', Rev: 2, Len: 12743
+43:538  0:000    9. 895425E8: 'HPET', 'A M I', Rev: 1, Len: 56
+43:538  0:000    10. 89542620: 'SSDT', 'A M I', Rev: 2, Len: 7137
+43:538  0:000    11. 89544208: 'SSDT', 'A M I', Rev: 2, Len: 3998
+43:538  0:000    12. 895451A8: 'SSDT', 'A M I', Rev: 2, Len: 11547
+43:538  0:000    13. 89547EC8: 'UEFI', 'A M I', Rev: 1, Len: 66
+43:538  0:000    14. 89547F10: 'LPIT', 'A M I', Rev: 1, Len: 92
+43:538  0:000    15. 89547F70: 'SSDT', 'A M I', Rev: 2, Len: 10206
+43:538  0:000    16. 8954A750: 'SSDT', 'A M I', Rev: 2, Len: 4094
+43:538  0:000    17. 8954B750: 'DBGP', 'A M I', Rev: 1, Len: 52
+43:538  0:000    18. 8954B788: 'DBG2', 'A M I', Rev: 0, Len: 84
+43:538  0:000    19. 8954B7E0: 'DMAR', 'A M I', Rev: 1, Len: 168
+43:538  0:000    20. 8954B888: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:538  0:000    21. 8954B8C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+43:538  0:000    Tables in Rsdt: 22
+43:538  0:000    0. 894F7190: 'FACP', 'A M I', Rev: 2, Len: 132
+43:538  0:000        (Dsdt: 894F7218, Facs: 895C1040)
+43:538  0:000        894F7218: 'DSDT', 'A M I', Rev: 2, Len: 255923
+43:541  0:002        895C1040: 'FACS', Ver: 0, Len: 64
+43:541  0:000    1. 89535AE8: 'APIC', 'A M I', Rev: 4, Len: 244
+43:541  0:000    2. 89535BE0: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:541  0:000    3. 89535C28: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:541  0:000    4. 89535CC8: 'MCFG', 'A M I', Rev: 1, Len: 60
+43:541  0:000    5. 89535D08: 'SSDT', 'A M I', Rev: 1, Len: 516
+43:541  0:000    6. 89535F10: 'SSDT', 'A M I', Rev: 2, Len: 6101
+43:541  0:000    7. 895376E8: 'SSDT', 'A M I', Rev: 1, Len: 32056
+43:541  0:000    8. 8953F420: 'SSDT', 'A M I', Rev: 2, Len: 12743
+43:541  0:000    9. 895425E8: 'HPET', 'A M I', Rev: 1, Len: 56
+43:541  0:000    10. 89542620: 'SSDT', 'A M I', Rev: 2, Len: 7137
+43:541  0:000    11. 89544208: 'SSDT', 'A M I', Rev: 2, Len: 3998
+43:541  0:000    12. 895451A8: 'SSDT', 'A M I', Rev: 2, Len: 11547
+43:541  0:000    13. 89547EC8: 'UEFI', 'A M I', Rev: 1, Len: 66
+43:541  0:000    14. 89547F10: 'LPIT', 'A M I', Rev: 1, Len: 92
+43:541  0:000    15. 89547F70: 'SSDT', 'A M I', Rev: 2, Len: 10206
+43:541  0:000    16. 8954A750: 'SSDT', 'A M I', Rev: 2, Len: 4094
+43:541  0:000    17. 8954B750: 'DBGP', 'A M I', Rev: 1, Len: 52
+43:541  0:000    18. 8954B788: 'DBG2', 'A M I', Rev: 0, Len: 84
+43:541  0:000    19. 8954B7E0: 'DMAR', 'A M I', Rev: 1, Len: 168
+43:541  0:000    20. 8954B888: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:541  0:000    21. 8954B8C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+43:541  0:000  Found UEFI Acpi 1.0 RSDP at 894F7000
+43:541  0:000  Printing ACPI tables from RSDP 894F7000 ...
+43:541  0:000   894F7000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+43:541  0:000    (Xsdt: 894F70A8, Rsdt: 894F7028)
+43:541  0:000    894F70A8: 'XSDT', 'A M I', Rev: 1, Len: 212
+43:541  0:000    894F7028: 'RSDT', 'A M I', Rev: 1, Len: 124
+43:541  0:000    Tables in Xsdt: 22
+43:541  0:000    0. 895359D0: 'FACP', 'A M I', Rev: 6, Len: 276
+43:541  0:000        (Dsdt: 894F7218, Facs: 895C1080, XDsdt: 894F7218, XFacs: 0)
+43:541  0:000        894F7218: 'DSDT', 'A M I', Rev: 2, Len: 255923
+43:544  0:002        895C1080: 'FACS', Ver: 2, Len: 64
+43:544  0:000    1. 89535AE8: 'APIC', 'A M I', Rev: 4, Len: 244
+43:544  0:000    2. 89535BE0: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:544  0:000    3. 89535C28: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:544  0:000    4. 89535CC8: 'MCFG', 'A M I', Rev: 1, Len: 60
+43:544  0:000    5. 89535D08: 'SSDT', 'A M I', Rev: 1, Len: 516
+43:544  0:000    6. 89535F10: 'SSDT', 'A M I', Rev: 2, Len: 6101
+43:544  0:000    7. 895376E8: 'SSDT', 'A M I', Rev: 1, Len: 32056
+43:544  0:000    8. 8953F420: 'SSDT', 'A M I', Rev: 2, Len: 12743
+43:544  0:000    9. 895425E8: 'HPET', 'A M I', Rev: 1, Len: 56
+43:544  0:000    10. 89542620: 'SSDT', 'A M I', Rev: 2, Len: 7137
+43:544  0:000    11. 89544208: 'SSDT', 'A M I', Rev: 2, Len: 3998
+43:544  0:000    12. 895451A8: 'SSDT', 'A M I', Rev: 2, Len: 11547
+43:544  0:000    13. 89547EC8: 'UEFI', 'A M I', Rev: 1, Len: 66
+43:544  0:000    14. 89547F10: 'LPIT', 'A M I', Rev: 1, Len: 92
+43:544  0:000    15. 89547F70: 'SSDT', 'A M I', Rev: 2, Len: 10206
+43:544  0:000    16. 8954A750: 'SSDT', 'A M I', Rev: 2, Len: 4094
+43:544  0:000    17. 8954B750: 'DBGP', 'A M I', Rev: 1, Len: 52
+43:544  0:000    18. 8954B788: 'DBG2', 'A M I', Rev: 0, Len: 84
+43:544  0:000    19. 8954B7E0: 'DMAR', 'A M I', Rev: 1, Len: 168
+43:544  0:000    20. 8954B888: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:544  0:000    21. 8954B8C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+43:544  0:000    Tables in Rsdt: 22
+43:544  0:000    0. 894F7190: 'FACP', 'A M I', Rev: 2, Len: 132
+43:544  0:000        (Dsdt: 894F7218, Facs: 895C1040)
+43:544  0:000        894F7218: 'DSDT', 'A M I', Rev: 2, Len: 255923
+43:547  0:002        895C1040: 'FACS', Ver: 0, Len: 64
+43:547  0:000    1. 89535AE8: 'APIC', 'A M I', Rev: 4, Len: 244
+43:547  0:000    2. 89535BE0: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:547  0:000    3. 89535C28: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:547  0:000    4. 89535CC8: 'MCFG', 'A M I', Rev: 1, Len: 60
+43:547  0:000    5. 89535D08: 'SSDT', 'A M I', Rev: 1, Len: 516
+43:547  0:000    6. 89535F10: 'SSDT', 'A M I', Rev: 2, Len: 6101
+43:547  0:000    7. 895376E8: 'SSDT', 'A M I', Rev: 1, Len: 32056
+43:547  0:000    8. 8953F420: 'SSDT', 'A M I', Rev: 2, Len: 12743
+43:547  0:000    9. 895425E8: 'HPET', 'A M I', Rev: 1, Len: 56
+43:547  0:000    10. 89542620: 'SSDT', 'A M I', Rev: 2, Len: 7137
+43:547  0:000    11. 89544208: 'SSDT', 'A M I', Rev: 2, Len: 3998
+43:547  0:000    12. 895451A8: 'SSDT', 'A M I', Rev: 2, Len: 11547
+43:547  0:000    13. 89547EC8: 'UEFI', 'A M I', Rev: 1, Len: 66
+43:547  0:000    14. 89547F10: 'LPIT', 'A M I', Rev: 1, Len: 92
+43:547  0:000    15. 89547F70: 'SSDT', 'A M I', Rev: 2, Len: 10206
+43:547  0:000    16. 8954A750: 'SSDT', 'A M I', Rev: 2, Len: 4094
+43:547  0:000    17. 8954B750: 'DBGP', 'A M I', Rev: 1, Len: 52
+43:547  0:000    18. 8954B788: 'DBG2', 'A M I', Rev: 0, Len: 84
+43:547  0:000    19. 8954B7E0: 'DMAR', 'A M I', Rev: 1, Len: 168
+43:547  0:000    20. 8954B888: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:547  0:000    21. 8954B8C0: 'WSMT', 'A M I', Rev: 1, Len: 40
