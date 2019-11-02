@@ -73,7 +73,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>1</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -113,12 +113,6 @@
 	<dict>
 		<key>EmbeddedThemeType</key>
 		<string>Dark</string>
-		<key>Hide</key>
-		<array>
-			<string>Preboot</string>
-			<string>Recovery</string>
-			<string>VM</string>
-		</array>
 		<key>Language</key>
 		<string>zh_CN:0</string>
 		<key>Mouse</key>
